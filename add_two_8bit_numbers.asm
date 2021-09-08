@@ -17,4 +17,4 @@
 Store:  MOV A, C      ; load carry to accumulator
         STA 0A2H      ; store carry to memory
 
-        HLT           ; hault
+        HLT           ; halt program
