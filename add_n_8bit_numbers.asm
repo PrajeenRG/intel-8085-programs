@@ -4,7 +4,6 @@
 ; Output is stored at 0B0H (Carry) and 0B1H (Sum)
 
         MVI C, 00H    ; initialise counter
-        MVI D, 00H    ; initialise carry
 
         LXI H, 0A0H   ; load register pair
         MOV B, M      ; load size to another register
