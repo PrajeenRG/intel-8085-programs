@@ -16,7 +16,7 @@ Loop:   CMP E         ; compares A with E
         JMP Loop      ; loops again
 
 Store:  STA 0A3H      ; store accumulator to memory
-        MOV A, C      ; load carry to accumulator
-        STA 0A2H      ; store carry to memory
+        MOV A, C      ; load quotient to accumulator
+        STA 0A2H      ; store quotient to memory
 
         HLT           ; halt program
