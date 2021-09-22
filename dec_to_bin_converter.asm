@@ -1,6 +1,6 @@
 ; Decimal to Binary Converter
 ;
-; input is taken at 5000
+; input is taken at 0x7800H
 ; output is stored at the next 8 bits following input
 
        MVI C, 08H     ; counter for 8 bits
